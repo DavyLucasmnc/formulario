@@ -1,0 +1,99 @@
+
+
+.titulo{
+    color: aliceblue;
+    padding: 40px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+
+    background-color: white;
+    font-family: arial;
+    background-image: url(fundo-de-folhas-tropicais-para-zoom_23-2148580778.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+
+}
+
+fieldset{
+    border: 3px solid yellow ;
+}
+legend{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+    
+
+}
+
+
+.inputbox{
+    position: relative;
+
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+
+}
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelinput, .inputUser:valid ~ .labelinput{
+    top: -20px;
+    font-size:12px;
+    color: gray;
+}
+
+#datanascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    background-color: gray;
+
+}
+#submit{
+    background-image: linear-gradient(to right, gray,  rgb(56, 56, 56));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(73, 73, 73),  rgb(19, 19, 19));
+}

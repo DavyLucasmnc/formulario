@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Formulario</title>
+    
+</head>
+
+<body>
+    <div class="box">
+        <form action="" id="formCadPac">
+            <fieldset>
+                
+                <legend><B>Cadastro do Paciente</B></legend>
+                <br>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="nome" id="nome" class="inputUser" maxlength="100" required > 
+                    <label for="nome" class="labelinput">Nome Completo:</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="number" name="CPF" id="CPF" class="inputUser" required> 
+                    <label for="CPF" class="labelinput">CPF:</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="number" name="telefone" id="telefone" class="inputUser" required> 
+                    <label for="telefone" class="labelinput">Telefone:</label>
+                </div>
+                <br><br>
+                <div class="inputbox">
+                    <input type="text" name="email" id="email" class="inputUser" required> 
+                    <label for="email" class="labelinput">E-mail:</label>
+                    
+                </div>
+                <br><br>
+                
+                    <label for="datanascimento"><b>Data de nascimento:</b></label>
+                    <input type="date" name="datanascimento" id="datanascimento" placeholder="..." required> 
+                    <br><br><br>
+
+                <input type="submit" name="submit" id="submit"> 
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
